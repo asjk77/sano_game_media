@@ -1,0 +1,15 @@
+{
+  "configurations": {
+    "Example_Init_and_Release": {
+      "adapter": "CodeLLDB",
+      "filetypes": ["cpp", "c", "objc", "rust"],
+      "configuration": {
+        "request": "launch",
+        "stopAtEntry": true,
+        "program": "${workspaceRoot}/build/examples/sano_game_media_init_and_release_example",
+        "targetArchitecture": "arm",
+        "MIMode": "lldb"
+      }
+    }
+  }
+}
